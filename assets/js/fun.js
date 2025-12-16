@@ -1,8 +1,29 @@
+// const toggleBtn = document.getElementById("themeToggle");
+
+// // Load saved mode
+// if (localStorage.getItem("theme") === "dark") {
+//   document.body.classList.add("dark");
+//   toggleBtn.textContent = "☀️ Light Mode";
+// }
+
+// toggleBtn.addEventListener("click", () => {
+//   document.body.classList.toggle("dark");
+
+//   if (document.body.classList.contains("dark")) {
+//     localStorage.setItem("theme", "dark");
+//     toggleBtn.textContent = "☀️ Light Mode";
+//   } else {
+//     localStorage.setItem("theme", "light");
+//     toggleBtn.textContent = "🌙 Dark Mode";
+//   }
+// });
 
 /*
 Employee Salary Calculator - Main Script
 Handles form interactions, validation, and table updates.
 */
+
+let employees = [];
 
 // Event listeners for buttons
 document.getElementById("Calc").addEventListener('click',Calc);
@@ -54,6 +75,19 @@ function Calc(){
     var tax           = taxes(grossValue, 0.16);
     var nSalary       = netSalary(grossValue, tax) ;
 
+    let employee = {
+        name: empName,
+        basic: basicSalary,
+        bonus: bonus,
+        extra: extraValue,
+        penalties: pena,
+        gross: grossValue,
+        tax: tax,
+        net: nSalary
+    };
+    employees.push(employee);
+    localStorage.setItem('employees', JSON.stringify(employees));
+
     // Add to table
     var tbody = document.getElementById('resultsTable');
     var newRow = tbody.insertRow();
@@ -79,9 +113,29 @@ function reCalc(){
 // Function to clear form and table
 function clearAll(){
     reCalc();
+    employees = [];
+    localStorage.removeItem('employees');
     var tbody = document.getElementById('resultsTable');
     tbody.innerHTML = "";
 }
 
+function loadEmployees() {
+    let stored = localStorage.getItem('employees');
+    if (stored) {
+        employees = JSON.parse(stored);
+        employees.forEach(emp => {
+            var tbody = document.getElementById('resultsTable');
+            var newRow = tbody.insertRow();
+            newRow.insertCell(0).innerHTML = emp.name;
+            newRow.insertCell(1).innerHTML = emp.basic.toFixed(2);
+            newRow.insertCell(2).innerHTML = emp.bonus.toFixed(2);
+            newRow.insertCell(3).innerHTML = emp.extra.toFixed(2);
+            newRow.insertCell(4).innerHTML = emp.penalties.toFixed(2);
+            newRow.insertCell(5).innerHTML = emp.gross.toFixed(2);
+            newRow.insertCell(6).innerHTML = emp.tax.toFixed(2);
+            newRow.insertCell(7).innerHTML = emp.net.toFixed(2);
+        });
+    }
+}
 
-
+loadEmployees();

@@ -1,3 +1,22 @@
+/* Dark Mode */
+/* body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark input,
+body.dark button {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #444;
+}
+
+#themeToggle {
+  margin: 10px 0;
+  padding: 8px 12px;
+  cursor: pointer;
+} */
+
 body {
 margin: 5PX;
 padding: 20PX;
@@ -120,6 +139,8 @@ font-size: 14px;
 padding: 5px;
 font-size: 14px;
 }
+
+
 }
   
 
