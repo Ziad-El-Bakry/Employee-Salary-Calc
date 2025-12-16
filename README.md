@@ -7,13 +7,22 @@ A simple **JavaScript practice project** for calculating employee salaries, incl
 ## 📁 Project Structure
 
 ```
-12-)3-11-2024 sunday js Basics/
-│── index.html        # Main HTML file with form and table
-│── main.css          # Stylesheet for responsive design
-│── fun.js            # JavaScript for event handling and calculations
-│── functions.js      # Reusable JavaScript functions for salary calculations
-│── th.jpeg           # Background image
-│── README.md         # Project documentation
+Employee Salary Calculator/
+
+│── index.html              # Main HTML file with form and table
+│── assets
+│      │── css
+│      │   │── main.css     # Stylesheet for responsive design
+│      │
+│      │── js
+│      │   │── fun.js       # JavaScript for event handling and calculations      
+│      │   │── functions.js # Reusable JavaScript functions for salary calculations         
+│      │       
+│      │── images
+│            │── th.jpeg    # Background image
+│            │── logo.jpg   # logo image
+│
+│── README.md               # Project documentation
 ```
 
 ---
@@ -62,25 +71,6 @@ A simple **JavaScript practice project** for calculating employee salaries, incl
 
 ---
 
-## 🗂️ Recommended Folder Structure (Future Enhancement)
-
-For better scalability:
-
-```
-project/
-├─ assets/
-│   ├─ css/
-│   │   └─ main.css
-│   ├─ js/
-│   │   ├─ fun.js
-│   │   └─ functions.js
-│   └─ images/
-│       └─ th.jpeg
-├─ index.html
-└─ README.md
-```
-
----
 
 ## 🚀 Future Features (Optional)
 
@@ -98,6 +88,7 @@ project/
 - HTML5
 - CSS3 (Responsive Design, Flexbox, Transitions)
 - JavaScript (Vanilla JS, ES6+ features)
+- Bootstrap (CDN)
 - Browser Developer Tools
 
 ---
@@ -118,9 +109,9 @@ It can be showcased as a **beginner to intermediate front-end project** on GitHu
 
 ## 👨‍💻 Author
 
-**Ziad Mamdouh**
+**Ziad El Bakry**
 
-Junior Front-End Developer
+Front-End Developer
 
 ---
 
