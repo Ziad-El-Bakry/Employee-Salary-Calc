@@ -22,7 +22,7 @@ margin: 5PX;
 padding: 20PX;
 background-image: url('/assets/images/th.jpeg');
 background-size: cover;
-background-attachment: scroll;
+background-attachment: fixed;
 font-family: Arial, sans-serif;
 }
 
