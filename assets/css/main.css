@@ -20,7 +20,7 @@ body.dark button {
 body {
 margin: 5PX;
 padding: 20PX;
-background-image: url('th.jpeg');
+background-image: url('../images/th.jpeg');
 background-size: cover;
 background-attachment: scroll;
 font-family: Arial, sans-serif;
@@ -34,7 +34,7 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 .container {
 width: 100%;
-max-width: 800px;
+max-width: 950px;
 border: 5px solid rgb(46, 33, 33);
 margin: 40px auto;
 padding: 20px;
@@ -45,7 +45,7 @@ box-shadow: 0 0 20px rgba(0,0,0,0.3);
 
 .container form {
 display: block;
-width: 100%;
+width: 90%;
 margin: auto;
 padding: 15px;
 }
@@ -90,7 +90,7 @@ padding: 10px;
 }
 
 .container table th {
-background-color: #000000;
+background-color: #5472ec;
 color: white;
 font-weight: bold;
 }
@@ -113,7 +113,7 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 transition: all 0.3s ease;
 }
 
-button:hover {
+/* button:hover {
 background-color: #383b4b;
 box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
@@ -121,7 +121,7 @@ box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 button:active {
 background-color: #1f3520;
 transform: scale(0.98);
-}
+} */
 
 @media (max-width: 200px) {
 .container {
@@ -139,14 +139,4 @@ font-size: 14px;
 padding: 5px;
 font-size: 14px;
 }
-
-
 }
-  
-
-
-
-
-
-
-

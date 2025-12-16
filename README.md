@@ -1,6 +1,6 @@
 # JavaScript Basics – Employee Salary Calculator
 
-A simple **JavaScript practice project** for calculating employee salaries, including basic salary, bonus, penalties, extra hours, and taxes. This project demonstrates core JavaScript concepts such as **functions**, **DOM manipulation**, **form validation**, and basic **HTML & CSS styling**. Suitable for beginners and can be used as part of a **Front-End GitHub Portfolio**.
+A simple **JavaScript practice project** for calculating employee salaries, including basic salary, bonus, penalties, extra hours, and taxes. This project demonstrates core JavaScript concepts such as **functions**, **DOM manipulation**, **form validation**, **localStorage**, and basic **HTML & CSS styling**. Suitable for beginners and can be used as part of a **Front-End GitHub Portfolio**.
 
 ---
 
@@ -55,6 +55,7 @@ Employee Salary Calculator/
 - Variables, Data Types, and Logic
 - DOM Manipulation (Event Listeners, Element Selection, Dynamic Content)
 - Form Validation and Error Handling
+- Browser Storage (localStorage for data persistence)
 - HTML5 Structure and Semantic Elements
 - CSS3 Styling, Responsive Design, and Transitions
 - Modular Code Organization
@@ -66,6 +67,8 @@ Employee Salary Calculator/
 - **Salary Calculation**: Computes gross salary, taxes (16%), and net salary based on inputs.
 - **Form Validation**: Ensures all fields are filled with valid numbers.
 - **Dynamic Table**: Adds new rows for each calculation without overwriting.
+- **Data Persistence**: Employee records are saved in localStorage and persist across browser sessions.
+- **Dark Mode Toggle**: Switch between light and dark themes with preference saved in localStorage.
 - **Responsive Design**: Works on desktop and mobile devices.
 - **User-Friendly UI**: Clear labels, hover effects, and modern styling.
 
@@ -75,8 +78,6 @@ Employee Salary Calculator/
 ## 🚀 Future Features (Optional)
 
 - Add export to CSV/Excel functionality
-- Implement dark mode toggle
-- Add employee data persistence (localStorage)
 - Include more tax brackets or customizable tax rates
 - Add charts for salary visualization
 - Convert to a full-fledged web app with backend
@@ -100,6 +101,7 @@ This project demonstrates:
 - Understanding of JavaScript fundamentals and DOM manipulation
 - Clean, readable, and modular code structure
 - Form validation and user input handling
+- Browser storage implementation with localStorage
 - Responsive web design principles
 - Ability to build interactive web applications
 

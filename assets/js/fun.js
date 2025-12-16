@@ -1,3 +1,4 @@
+// Dark Mode Toggle Script
 // const toggleBtn = document.getElementById("themeToggle");
 
 // // Load saved mode
