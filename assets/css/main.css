@@ -20,7 +20,7 @@ body.dark button {
 body {
 margin: 5PX;
 padding: 20PX;
-background-image: url('../images/th.jpeg');
+background-image: url('/assets/images/th.jpeg');
 background-size: cover;
 background-attachment: scroll;
 font-family: Arial, sans-serif;

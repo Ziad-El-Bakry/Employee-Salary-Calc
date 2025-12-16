@@ -1,23 +1,3 @@
-// Dark Mode Toggle Script
-// const toggleBtn = document.getElementById("themeToggle");
-
-// // Load saved mode
-// if (localStorage.getItem("theme") === "dark") {
-//   document.body.classList.add("dark");
-//   toggleBtn.textContent = "☀️ Light Mode";
-// }
-
-// toggleBtn.addEventListener("click", () => {
-//   document.body.classList.toggle("dark");
-
-//   if (document.body.classList.contains("dark")) {
-//     localStorage.setItem("theme", "dark");
-//     toggleBtn.textContent = "☀️ Light Mode";
-//   } else {
-//     localStorage.setItem("theme", "light");
-//     toggleBtn.textContent = "🌙 Dark Mode";
-//   }
-// });
 
 /*
 Employee Salary Calculator - Main Script
