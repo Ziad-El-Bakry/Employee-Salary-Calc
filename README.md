@@ -15,9 +15,9 @@ Employee Salary Calculator/
 │      │   │── main.css     # Stylesheet for responsive design
 │      │
 │      │── js
-│      │   │── fun.js       # JavaScript for event handling and calculations      
-│      │   │── functions.js # Reusable JavaScript functions for salary calculations         
-│      │       
+│      │   │── fun.js       # JavaScript for event handling and calculations
+│      │   │── functions.js # Reusable JavaScript functions for salary calculations
+│      │
 │      │── images
 │            │── th.jpeg    # Background image
 │            │── logo.jpg   # logo image
@@ -73,7 +73,6 @@ Employee Salary Calculator/
 - **User-Friendly UI**: Clear labels, hover effects, and modern styling.
 
 ---
-
 
 ## 🚀 Future Features (Optional)
 
