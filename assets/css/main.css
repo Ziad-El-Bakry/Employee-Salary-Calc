@@ -104,7 +104,7 @@ background-color: #5472ec;
 color: white;
 margin: 5px;
 border: none;
-padding: 10px 20px;
+padding: 10px 15px;
 font-size: 16px;
 font-weight: bold;
 border-radius: 5px;
@@ -113,7 +113,7 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 transition: all 0.3s ease;
 }
 
-/* button:hover {
+button:hover {
 background-color: #383b4b;
 box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
@@ -121,7 +121,7 @@ box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 button:active {
 background-color: #1f3520;
 transform: scale(0.98);
-} */
+}
 
 @media (max-width: 200px) {
 .container {
